@@ -2,7 +2,8 @@ version: 2
 updates:
   # For JavaScript (npm)  - package-ecosystem: "npm"
   directory: "/" # root folder
-  schedule:      interval: "daily"
+  schedule:
+    interval: "daily"
   
   # For Python (pip)
   package-ecosystem: "pip"
